@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 class Employee{
 	int id = 101;
 	String name;
@@ -11,7 +9,7 @@ public class Test {
 		
 		System.out.println("Program started...");
 		
-		ArrayList<Employee> al = new ArrayList<>();
+//		ArrayList<Employee> al = new ArrayList<>();
 		
 		Runtime runtime = Runtime.getRuntime();
 		System.out.println("Total memory is " + runtime.totalMemory());
